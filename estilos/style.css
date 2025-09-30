@@ -160,7 +160,7 @@ article h2 {
   align-items: center;
 }
 
-#skill-conteinar .nome {
+#skill-conteiner .nome {
   font-weight: bolder;
   color: var(--texto);
 }
@@ -183,3 +183,8 @@ article h2 {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 768px) {
+  #skill-conteiner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
