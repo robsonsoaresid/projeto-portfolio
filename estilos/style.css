@@ -36,6 +36,12 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+  
 }
 
 nav#menu ul {
@@ -83,6 +89,7 @@ section#ficha img.foto {
   display: block;
   margin: auto;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 section#ficha h1 {
@@ -128,7 +135,7 @@ article {
 
 article h2 {
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .video-container {
