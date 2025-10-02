@@ -139,7 +139,7 @@ article h2 {
   margin-bottom: 20px;
 }
 
-.video-container {
+.video-container {        /* me encontre*/
   position: relative;
   width: 100%;
   margin: auto;
@@ -222,15 +222,15 @@ article h2 {
   font-size: 1.1em;
 }
 
-#ficha-container {
-  display: grid;
-  align-items: center;
-}
-
 @media screen and (min-width: 768px) {
   #skill-conteiner {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+#ficha-container {
+  display: grid;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -238,3 +238,26 @@ article h2 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+#projeto-container img.imagem {
+  width: 100%;
+ /* aspect-ratio: 1/1; dexa a foto redonda */ 
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  
+}
+
+#projeto-container .nosso {
+  color: var(--destaque-inverso);
+  text-align: center;
+}
+
+ 
+  
+
+
+
+
+
