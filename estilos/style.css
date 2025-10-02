@@ -212,7 +212,14 @@ article h2 {
 }
 
 #formacao-container .periodo {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
 
+#formacao-container .instituicao {
+  color: var(--destaque-inverso);
+  font-size: 1.1em;
 }
 
 @media screen and (min-width: 768px) {
