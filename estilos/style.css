@@ -254,6 +254,21 @@ article h2 {
   text-align: center;
 }
 
+#projeto-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.photo .texto {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+  
+@media screen and (min-width: 768px) {
+   
+}
+
  
   
 
