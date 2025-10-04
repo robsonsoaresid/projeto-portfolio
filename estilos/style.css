@@ -44,6 +44,10 @@ header {
   z-index: 1000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 nav#menu ul {
   list-style: none;
