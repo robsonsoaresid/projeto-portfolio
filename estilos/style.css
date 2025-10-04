@@ -246,6 +246,7 @@ article h2 {
   display: block;
   margin: auto;
   margin-bottom: 15px;
+  border-radius: 8px1;
   
 }
 
@@ -256,17 +257,32 @@ article h2 {
 
 #projeto-container {
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.photo .texto {
+.imagem {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+  gap: 10px;
 }
 
-  
 @media screen and (min-width: 768px) {
-   
+  .imagem {
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .photo img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .texto {
+    flex: 1;
+  }
 }
 
  
