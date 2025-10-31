@@ -274,6 +274,9 @@ footer a:hover {
 
   section#ficha {
     grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 64px;
   }
 
   section#detalhes {
