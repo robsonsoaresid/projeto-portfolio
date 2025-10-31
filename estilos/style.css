@@ -65,7 +65,7 @@ main {
   display: grid;
   grid-template-columns: auto 90vw auto;
   gap: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 section#ficha {
@@ -140,6 +140,7 @@ article h2 {
   width: 100%;
   margin: auto;
   aspect-ratio: 16/9;
+  
   
 }
 
@@ -276,7 +277,7 @@ footer a:hover {
   }
 
   section#detalhes {
-    grid-template-columns: 1fr 1fr;
+    grid-column: 3 / 4;
   }
   #skill-conteiner {
     grid-template-columns: 1fr 1fr;
