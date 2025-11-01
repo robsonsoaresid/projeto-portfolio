@@ -288,12 +288,11 @@ footer a:hover {
 
   #projeto-container .projeto {
     flex-direction: row-reverse;
-    justify-content: space-between
-    ;
+    justify-content: space-between;
   }
 
   #projeto-container .projeto-info {
-    max-width: 80px;
+    max-width: 80%;
   }
 
   #projeto-container .foto {
